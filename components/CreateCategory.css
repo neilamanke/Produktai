@@ -1,0 +1,47 @@
+.CreateGenre-back{
+    background-color: #141625;
+    color: #fff  
+}
+.CreateGenre-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141625;
+    color: #fff;
+  }
+  .CreateGenre-form {
+    background-color: #9b9b9f;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 650px;
+  }
+  .CreateGenre-group {
+    margin-bottom: 1rem;
+  }
+  .CreateGenre-group input {
+    width: 100%;
+    padding: 1.5rem;
+    border: none;
+    border-bottom: 3px solid #444;
+    background: transparent;
+    color: #ffffff;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+.CreateGenre-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ff6b6b;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .CreateGenre-btn:hover {
+    background-color: #e05252;
+  }
